@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta
+      name="description"
+      content="Yassen Mahmoud — Front-End Developer. Clean, comfortable, and responsive digital identity card."
+    />
+    <meta name="author" content="Yassen Mahmoud" />
+    <meta name="theme-color" content="#0b0f17" />
+    <meta property="og:title" content="Yassen Mahmoud | Front-End Developer" />
+    <meta property="og:description" content="Front-End Developer — Get in touch via WhatsApp, Socials, or Telda." />
+    <meta property="og:type" content="profile" />
+
+    <title>Yassen Mahmoud | Front-End Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Ambient Background Light Orbs -->
+    <div class="ambient-glow orb-1" aria-hidden="true"></div>
+    <div class="ambient-glow orb-2" aria-hidden="true"></div>
+    <div class="ambient-glow orb-3" aria-hidden="true"></div>
+
+    <main class="page-container">
+      <article class="id-card" id="idCard">
+        <!-- Card Top Bar: Quick Utility Controls -->
+        <header class="card-topbar">
+          <div class="topbar-actions">
+            <button
+              type="button"
+              class="icon-btn"
+              id="shareBtn"
+              aria-label="Share profile"
+              title="Share profile"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="18" cy="5" r="3"></circle>
+                <circle cx="6" cy="12" r="3"></circle>
+                <circle cx="18" cy="19" r="3"></circle>
+                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+              </svg>
+            </button>
+
+            <button
+              type="button"
+              class="icon-btn"
+              id="themeToggleBtn"
+              aria-label="Toggle comfort theme"
+              title="Toggle theme (Dark / Light)"
+            >
+              <!-- Sun icon (shown in dark mode) -->
+              <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+              </svg>
+              <!-- Moon icon (shown in light mode) -->
+              <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+              </svg>
+            </button>
+          </div>
+        </header>
+
+        <!-- Profile Identity Header -->
+        <div class="profile-hero">
+          <div class="avatar-wrapper">
+            <img
+              src="WhatsApp Image 2025-07-26 at 15.06.42_a4fd3cd9.jpg"
+              alt="Yassen Mahmoud"
+              class="avatar-img"
+              width="96"
+              height="96"
+              loading="eager"
+            />
+            <span class="avatar-badge" title="Verified Profile">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+              </svg>
+            </span>
+          </div>
+
+          <div class="hero-details">
+            <h1>Yassen Mahmoud</h1>
+            <p class="role-title">Front-End Developer</p>
+          </div>
+        </div>
+
+        <!-- Primary Action: WhatsApp Direct Conversation -->
+        <section class="primary-action-section">
+          <a
+            class="action-card whatsapp-card"
+            href="https://wa.me/201507291572?text=Hi%20Yassen%2C%20I%20saw%20your%20profile%20and%20would%20like%20to%20connect%21"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Direct message Yassen Mahmoud on WhatsApp"
+          >
+            <div class="action-icon whatsapp-glow-icon">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M20.52 3.48A11.82 11.82 0 0 0 12.1 0C5.54 0 .2 5.33.2 11.9c0 2.1.55 4.16 1.6 5.97L.1 24l6.28-1.65a11.9 11.9 0 0 0 5.7 1.45h.01c6.56 0 11.9-5.34 11.9-11.9 0-3.18-1.24-6.17-3.47-8.42ZM12.1 21.78a9.9 9.9 0 0 1-5.04-1.38l-.36-.21-3.73.98.99-3.64-.24-.37a9.87 9.87 0 0 1-1.52-5.26c0-5.47 4.45-9.92 9.92-9.92 2.65 0 5.14 1.03 7.01 2.91a9.86 9.86 0 0 1 2.9 7.02c0 5.47-4.45 9.87-9.93 9.87Zm5.44-7.41c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.47-.89-.8-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.44-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.3 1.27.49 1.71.63.72.23 1.37.2 1.89.12.58-.09 1.76-.72 2.01-1.42.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35Z"
+                />
+              </svg>
+            </div>
+            <div class="action-text">
+              <span class="action-title">Message on WhatsApp</span>
+              <span class="action-subtitle">+20 150 729 1572</span>
+            </div>
+            <span class="action-chevron" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </span>
+          </a>
+        </section>
+
+        <!-- Quick Utility Actions: Copy Contact & Save vCard -->
+        <section class="quick-utilities-grid" aria-label="Quick Contact Tools">
+          <button type="button" class="utility-card" id="copyPhoneBtn" aria-label="Copy phone number">
+            <span class="utility-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+            </span>
+            <div class="utility-info">
+              <span class="utility-label">Copy Phone</span>
+              <span class="utility-detail">+20 150 729 1572</span>
+            </div>
+          </button>
+
+          <button type="button" class="utility-card" id="saveContactBtn" aria-label="Save contact to phone">
+            <span class="utility-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="8.5" cy="7" r="4"></circle>
+                <line x1="20" y1="8" x2="20" y2="14"></line>
+                <line x1="23" y1="11" x2="17" y2="11"></line>
+              </svg>
+            </span>
+            <div class="utility-info">
+              <span class="utility-label">Save Contact</span>
+              <span class="utility-detail">Add to phone book</span>
+            </div>
+          </button>
+        </section>
+
+        <!-- Social Media Network Section -->
+        <section class="social-section" aria-labelledby="social-heading">
+          <div class="section-header">
+            <h2 id="social-heading" class="section-title">Connect & Follow</h2>
+            <span class="section-badge">Socials</span>
+          </div>
+
+          <div class="social-grid">
+            <!-- LinkedIn -->
+            <a
+              href="https://www.linkedin.com/in/yassen-mahmoud-4287653ba?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-tile linkedin-tile"
+              aria-label="LinkedIn Profile"
+            >
+              <div class="tile-brand">
+                <img src="social logo/linkedin.png" alt="" class="tile-icon" width="24" height="24" />
+                <div class="tile-text">
+                  <span class="brand-name">LinkedIn</span>
+                  <span class="brand-sub">Professional Profile</span>
+                </div>
+              </div>
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <!-- Instagram -->
+            <a
+              href="https://www.instagram.com/_yasin_mahmoud?utm_source=qr"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-tile instagram-tile"
+              aria-label="Instagram Profile"
+            >
+              <div class="tile-brand">
+                <img src="social logo/insta.png" alt="" class="tile-icon" width="24" height="24" />
+                <div class="tile-text">
+                  <span class="brand-name">Instagram</span>
+                  <span class="brand-sub">@_yasin_mahmoud</span>
+                </div>
+              </div>
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <!-- Facebook -->
+            <a
+              href="https://www.facebook.com/yassen.m.63213/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-tile facebook-tile"
+              aria-label="Facebook Profile"
+            >
+              <div class="tile-brand">
+                <img src="social logo/facebook.png" alt="" class="tile-icon" width="24" height="24" />
+                <div class="tile-text">
+                  <span class="brand-name">Facebook</span>
+                  <span class="brand-sub">Yassen Mahmoud</span>
+                </div>
+              </div>
+              <span class="tile-arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </section>
+
+        <!-- Telda Payment & Support Feature -->
+        <section class="payment-section" aria-labelledby="support-heading">
+          <div class="section-header">
+            <h2 id="support-heading" class="section-title">Support & Payments</h2>
+            <span class="section-badge telda-badge">Telda</span>
+          </div>
+
+          <div class="telda-card" id="openTeldaModalBtn" role="button" tabindex="0" aria-label="Open Telda payment QR and details">
+            <div class="telda-brand-box">
+              <img
+                src="social logo/telda-logo-support-chat.dc830315.webp"
+                alt="Telda"
+                class="telda-logo-img"
+                width="38"
+                height="38"
+              />
+              <div class="telda-copy">
+                <div class="telda-title-wrap">
+                  <span class="telda-title">Support me on Telda</span>
+                  <span class="scan-pill">Instant QR</span>
+                </div>
+                <span class="telda-sub">Tap to view QR code or pay directly</span>
+              </div>
+            </div>
+            <div class="telda-action-cue">
+              <span class="cue-text">Show QR</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+              </svg>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- Modal for Telda Payment QR Code -->
+    <div class="modal-backdrop" id="teldaModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+      <div class="modal-window">
+        <header class="modal-header">
+          <div class="modal-title-wrap">
+            <img src="social logo/telda-logo-support-chat.dc830315.webp" alt="Telda" class="modal-telda-icon" width="28" height="28" />
+            <h3 id="modalTitle">Support via Telda</h3>
+          </div>
+          <button type="button" class="modal-close-btn" id="closeModalBtn" aria-label="Close QR Modal">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </header>
+
+        <div class="modal-body">
+          <div class="qr-container">
+            <img
+              src="social logo/Telda Acount.jpeg"
+              alt="Yassen Mahmoud Telda QR Code"
+              class="qr-image"
+              width="240"
+              height="240"
+            />
+          </div>
+          <p class="qr-instructions">
+            Scan this code with the <strong>Telda App</strong> or your phone camera to send support or payment.
+          </p>
+
+          <div class="modal-actions">
+            <a
+              href="https://drive.google.com/file/d/1ma8QwtJ1N2npJv_0IeW8lb9lq8MmxNUJ/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="modal-btn modal-btn-secondary"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+              <span>Open in Drive</span>
+            </a>
+
+            <a
+              href="social logo/Telda Acount.jpeg"
+              download="Yassen-Mahmoud-Telda-QR.jpeg"
+              class="modal-btn modal-btn-primary"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Save QR Code</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Floating Feedback Toast Notification -->
+    <div class="toast-container" id="toastNotification" role="status" aria-live="polite" aria-atomic="true">
+      <div class="toast-card">
+        <span class="toast-icon">✨</span>
+        <span class="toast-message" id="toastMessage">Copied to clipboard!</span>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
