@@ -647,6 +647,7 @@ h1 {
   font-size: 0.875rem;
   font-weight: 700;
   color: var(--text-primary);
+  letter-spacing: 2px;
 }
 
 .brand-sub {
